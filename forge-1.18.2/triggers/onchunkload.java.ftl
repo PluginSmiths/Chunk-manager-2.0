@@ -9,7 +9,7 @@ public class ${name}Procedure {
             "y": "0",
             "z": "event.getChunk().getPos().z",
             "world": "event.getChunk().getWorldForge()",
-            "chunk": "(ChunkLevel) event.getChunk()",
+            "chunk": "(LevelChunk) event.getChunk()",
             "NewChunk": "event.isNewChunk()",
             "event": "event"
             }/>
