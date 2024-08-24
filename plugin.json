@@ -1,5 +1,6 @@
 {
   "id": "chunkmanager2",
+  "weight": 30,
   "minversion": 0,
   "supportedversions": [
     202400115713,
