@@ -1,0 +1,10 @@
+{
+  "id": "chunkmanager2",
+  "supportedversions": [202400115713, 202400115821],
+  "info": {
+    "name": "Chunk Manager",
+    "version": "1.0",
+    "description": "Play with chunks!",
+    "author": "Goldorion, OVONSAME"
+  }
+}
