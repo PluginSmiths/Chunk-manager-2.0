@@ -18,7 +18,7 @@
     },
     {
       "name": "chunk",
-      "type": "blockstate"
+      "type": "Chunk"
     }
   ],
   "cancelable": false,
