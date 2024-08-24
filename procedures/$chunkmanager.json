@@ -1,3 +1,5 @@
 {
-  "color": 270
+  "color": 270,
+  "api": false,
+  "parent_category": "world"
 }
