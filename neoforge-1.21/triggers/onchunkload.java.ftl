@@ -2,7 +2,7 @@
 @Mod.EventBusSubscriber
 public class ${name}Procedure {
     @SubscribeEvent
-    public static void onEventTriggered(ChunkEvent.Load event) {
+    public static void onEventTriggered(net.minecraftforge.event.level.ChunkEvent.Load event) {
         <#assign dependenciesCode><#compress>
             <@procedureDependenciesCode dependencies, {
             "x": "event.getChunk().getPos().x",
