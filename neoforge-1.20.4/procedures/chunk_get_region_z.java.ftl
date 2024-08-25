@@ -1,1 +1,0 @@
-(${input$chunk}.getPos().getRegionZ())

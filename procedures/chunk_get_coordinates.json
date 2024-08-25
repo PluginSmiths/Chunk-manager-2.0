@@ -1,0 +1,66 @@
+{
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "name",
+      "options": [
+        [
+          "MaxBlockX",
+          "MaxBlockX"
+        ],
+        [
+          "MaxBlockZ",
+          "MaxBlockZ"
+        ],
+        [
+          "RegionLocalX",
+          "RegionLocalX"
+        ],
+        [
+          "RegionLocalZ",
+          "RegionLocalZ"
+        ],
+        [
+          "RegionX",
+          "RegionX"
+        ],
+        [
+          "RegionZ",
+          "RegionZ"
+        ],
+        [
+          "MinBlockX",
+          "MinBlockX"
+        ],
+        [
+          "MinBlockZ",
+          "MinBlockZ"
+        ],
+        [
+          "InhabitedTime",
+          "InhabitedTime"
+        ]
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "chunk",
+      "check": "Chunk"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "#606999",
+  "mcreator": {
+    "toolbox_id": "chunkmanager",
+    "toolbox_init": [
+      "<value name=\"chunk\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "chunk"
+    ],
+    "fields": [
+      "name"
+    ]
+  }
+}
