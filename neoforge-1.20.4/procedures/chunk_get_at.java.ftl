@@ -1,1 +1,1 @@
-world.getChunk(new BlockPos(${input$x}, ${input$y}, ${input$z}))
+world.getChunk(new BlockPos( (int) ${input$x}, (int)  ${input$y}, (int)  ${input$z}))
