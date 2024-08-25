@@ -5,19 +5,19 @@
       "name": "name",
       "options": [
         [
-          "MaxBlockX",
+          "EndX",
           "MaxBlockX"
         ],
         [
-          "MaxBlockZ",
+          "EndZ",
           "MaxBlockZ"
         ],
         [
-          "RegionLocalX",
+          "RegionRelativeX",
           "RegionLocalX"
         ],
         [
-          "RegionLocalZ",
+          "RegionRelativeZ",
           "RegionLocalZ"
         ],
         [
@@ -29,11 +29,11 @@
           "RegionZ"
         ],
         [
-          "MinBlockX",
+          "StartX",
           "MinBlockX"
         ],
         [
-          "MinBlockZ",
+          "StartZ",
           "MinBlockZ"
         ],
         [
