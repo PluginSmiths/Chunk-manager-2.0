@@ -1,1 +1,1 @@
-${input$chunk}.getFullStatus()==ChunkHolder.FullChunkStatus.${field$status}
+${input$chunk}.getFullStatus()==FullChunkStatus.${field$status}
