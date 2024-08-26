@@ -1,0 +1,42 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "chunk",
+      "check": "Chunk"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "name",
+      "options": [
+        [
+          "Empty",
+          "Empty"
+        ],
+        [
+          "Unsaved",
+          "Unsaved"
+        ],
+        [
+          "Upgrading",
+          "Upgrading"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItemBlock",
+  "colour": "#607c99",
+  "mcreator": {
+    "toolbox_id": "chunkmanager",
+    "toolbox_init": [
+      "<value name=\"chunk\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "chunk"
+    ],
+    "fields": [
+      "name"
+    ]
+  }
+}

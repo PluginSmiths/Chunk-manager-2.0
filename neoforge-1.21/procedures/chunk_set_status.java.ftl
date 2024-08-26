@@ -1,0 +1,1 @@
+${input$chunk}.setFullStatus(ChunkHolder.FullChunkStatus.${field$status});

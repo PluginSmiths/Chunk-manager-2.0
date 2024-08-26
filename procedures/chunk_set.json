@@ -6,8 +6,22 @@
       "check": "Chunk"
     },
     {
+      "type": "field_dropdown",
+      "name": "name",
+      "options": [
+        [
+          "Loaded",
+          "Loaded"
+        ],
+        [
+          "Unsaved",
+          "Unsaved"
+        ]
+      ]
+    },
+    {
       "type": "input_value",
-      "name": "load",
+      "name": "boolean",
       "check": "Boolean"
     }
   ],
@@ -19,11 +33,14 @@
     "toolbox_id": "chunkmanager",
     "toolbox_init": [
       "<value name=\"chunk\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>",
-      "<value name=\"load\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
+      "<value name=\"boolean\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
     ],
     "inputs": [
       "chunk",
-      "load"
+      "boolean"
+    ],
+    "fields": [
+      "name"
     ]
   }
 }

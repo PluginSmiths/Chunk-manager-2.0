@@ -1,1 +1,0 @@
-${input$chunk}.setLoaded(${input$load});
