@@ -2,7 +2,7 @@
 @Mod.EventBusSubscriber
 public class ${name}Procedure {
     @SubscribeEvent
-    public static void onEventTriggered(ChunkWatchEvent.Unwatch event) {
+    public static void onEventTriggered(ChunkWatchEvent.UnWatch event) {
         <#assign dependenciesCode><#compress>
             <@procedureDependenciesCode dependencies, {
             "x": "event.getPos().x",
