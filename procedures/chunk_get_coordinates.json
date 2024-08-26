@@ -5,6 +5,14 @@
       "name": "name",
       "options": [
         [
+          "Z",
+          "z"
+        ],
+        [
+          "X",
+          "x"
+        ],
+        [
           "EndX",
           "MaxBlockX"
         ],
