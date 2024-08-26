@@ -25,7 +25,7 @@
     }
   ],
   "inputsInline": true,
-  "output": "MCItemBlock",
+  "output": "Boolean",
   "colour": "#607c99",
   "mcreator": {
     "toolbox_id": "chunkmanager",
