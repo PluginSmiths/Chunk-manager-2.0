@@ -1,1 +1,1 @@
-(${input$chunk}.getPos().get${field$name}())
+(${input$chunk}.getPos().${field$name})

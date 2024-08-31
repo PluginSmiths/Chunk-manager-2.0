@@ -14,39 +14,39 @@
         ],
         [
           "EndX",
-          "MaxBlockX"
+          "getMaxBlockX()"
         ],
         [
           "EndZ",
-          "MaxBlockZ"
+          "getMaxBlockZ()"
         ],
         [
           "RegionRelativeX",
-          "RegionLocalX"
+          "getRegionLocalX()"
         ],
         [
           "RegionRelativeZ",
-          "RegionLocalZ"
+          "getRegionLocalZ()"
         ],
         [
           "RegionX",
-          "RegionX"
+          "getRegionX()"
         ],
         [
           "RegionZ",
-          "RegionZ"
+          "getRegionZ()"
         ],
         [
           "StartX",
-          "MinBlockX"
+          "getMinBlockX()"
         ],
         [
           "StartZ",
-          "MinBlockZ"
+          "getMinBlockZ()"
         ],
         [
           "InhabitedTime",
-          "InhabitedTime"
+          "getInhabitedTime()"
         ]
       ]
     },
