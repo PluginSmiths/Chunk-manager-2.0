@@ -1,0 +1,42 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "chunk",
+      "check": "Chunk"
+    },
+    {
+      "type": "input_value",
+      "name": "add",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "ticking",
+      "check": "Boolean"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 270,
+  "mcreator": {
+    "toolbox_id": "chunkmanager",
+    "toolbox_init": [
+      "<value name=\"chunk\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>",
+      "<value name=\"add\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>",
+      "<value name=\"ticking\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>"
+    ],
+    "inputs": [
+      "chunk",
+      "add",
+      "ticking"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

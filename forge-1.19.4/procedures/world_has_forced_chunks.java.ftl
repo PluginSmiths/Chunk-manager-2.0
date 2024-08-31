@@ -1,0 +1,1 @@
+world instanceof ServerLevel _world && ForgeChunkManager.hasForcedChunks(_world)

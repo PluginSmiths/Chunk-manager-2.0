@@ -1,0 +1,18 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "#607c99",
+  "mcreator": {
+    "toolbox_id": "chunkmanager",
+    "toolbox_init": [
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}
