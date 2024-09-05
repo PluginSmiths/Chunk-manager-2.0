@@ -1,4 +1,5 @@
 {
   "color": 270,
-  "blocklyVariableType": "Chunk"
+  "blocklyVariableType": "Chunk",
+  "nullable": true
 }
