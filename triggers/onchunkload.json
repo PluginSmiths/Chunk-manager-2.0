@@ -23,6 +23,10 @@
     {
       "name": "NewChunk",
       "type": "logic"
+    },
+    {
+      "name": "Dimension",
+      "type": "dimensiontype"
     }
   ],
   "cancelable": false,
