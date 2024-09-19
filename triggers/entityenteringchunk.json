@@ -35,6 +35,10 @@
     {
       "name": "OldChunkZ",
       "type": "number"
+    },
+    {
+      "name": "Dimension",
+      "type": "dimensiontype"
     }
   ],
   "cancelable": false,
