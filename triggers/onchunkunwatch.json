@@ -19,6 +19,10 @@
     {
       "name": "world",
       "type": "world"
+    },
+    {
+      "name": "Dimension",
+      "type": "dimensiontype"
     }
   ],
   "cancelable": false,
