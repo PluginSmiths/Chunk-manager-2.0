@@ -14,6 +14,7 @@ public class ${name}Procedure {
             "NewChunkZ": "event.getNewChunkZ()",
             "OldChunkX": "event.getOldChunkX()",
             "OldChunkZ": "event.getOldChunkZ()",
+            "Dimension": "event.getEntity().level().dimension()",
             "event": "event"
             }/>
         </#compress></#assign>
