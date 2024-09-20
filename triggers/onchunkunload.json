@@ -21,7 +21,7 @@
       "type": "chunk"
     },
     {
-      "name": "Dimension",
+      "name": "dimension",
       "type": "dimensiontype"
     }
   ],

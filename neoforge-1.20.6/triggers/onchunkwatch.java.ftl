@@ -11,7 +11,7 @@ public class ${name}Procedure {
             "entity": "event.getPlayer()",
             "world": "event.getLevel()",
             "chunk": "event.getChunk()",
-            "Dimension": "event.getLevel().dimension()",
+            "dimension": "event.getLevel().dimension()",
             "event": "event"
             }/>
         </#compress></#assign>

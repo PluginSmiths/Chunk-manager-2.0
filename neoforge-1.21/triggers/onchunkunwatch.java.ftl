@@ -10,7 +10,7 @@ public class ${name}Procedure {
             "z": "event.getPos().z",
             "entity": "event.getPlayer()",
             "world": "event.getLevel()",
-            "Dimension": "event.getLevel().dimension()",
+            "dimension": "event.getLevel().dimension()",
             "event": "event"
             }/>
         </#compress></#assign>

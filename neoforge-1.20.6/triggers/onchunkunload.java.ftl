@@ -10,7 +10,7 @@ public class ${name}Procedure {
             "z": "event.getChunk().getPos().z",
             "world": "event.getChunk().getWorldForge()",
             "chunk": "(LevelChunk) event.getChunk()",
-            "Dimension": "event.getChunk().getWorldForge().dimension()",
+            "dimension": "event.getChunk().getWorldForge().dimension()",
             "event": "event"
             }/>
         </#compress></#assign>

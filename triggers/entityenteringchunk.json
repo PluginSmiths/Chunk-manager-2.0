@@ -37,7 +37,7 @@
       "type": "number"
     },
     {
-      "name": "Dimension",
+      "name": "dimension",
       "type": "dimensiontype"
     }
   ],
