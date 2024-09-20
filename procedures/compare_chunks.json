@@ -1,0 +1,28 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "a",
+      "check": "Chunk"
+    },
+    {
+      "type": "input_value",
+      "name": "b",
+      "check": "Chunk"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 270,
+  "mcreator": {
+    "toolbox_id": "chunkmanager",
+    "toolbox_init": [
+      "<value name=\"a\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>",
+      "<value name=\"b\"><block type=\"variables_get_chunk\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "a",
+      "b"
+    ]
+  }
+}
