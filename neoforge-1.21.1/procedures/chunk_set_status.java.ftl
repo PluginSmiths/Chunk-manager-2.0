@@ -1,0 +1,1 @@
+${input$chunk}.setFullStatus(() -> FullChunkStatus.${field$status});
